@@ -1,0 +1,134 @@
+/* * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-size: 100%;
+} */
+
+p{
+    font-family: Roboto;
+}
+.youtubeVidTxt{
+    
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    width: 500px;
+    line-height: 35px;
+}
+
+
+.appleTxt{
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: rgb(227,65,64);
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.shopNow{
+    text-decoration: underline;
+    margin-left: 10px;
+    color: inherit;
+}
+.shopNow:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.videoStats{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 1in;
+}
+table, th, td {
+    border: 1px solid black;
+}
+.subscribeButt{
+    background-color: rgb(200, 0, 0);
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 2px;
+    vertical-align: top;
+    cursor: pointer;
+    font-size: medium;
+    transition: opacity 0.15s;
+    margin-right: 8px;
+}
+.subscribeButt:hover{
+    opacity: 0.8;
+}
+
+.subscribeButt:active{
+    opacity: 0.5;
+}
+
+
+.joinButt{
+    padding-left: 15px;
+    padding-top: 9px;
+    padding-right: 15px;
+    padding-bottom: 9px;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 95, 212);
+    border-color: blue;
+    border-style: solid;
+    vertical-align: top;
+    transition: background-color 0.15s,
+        color 0.15s;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: medium;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.joinButt:hover{
+    background-color:rgb(34, 84, 220) ;
+    color: white;
+}
+
+.joinButt:active{
+    opacity: 0.7;
+}
+
+
+.tweetButt{
+    background-color: rgb(25, 127, 210);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 70px;
+    margin-right: 8px;
+    border-width: 1px;
+    border-radius: 18px;
+    text-align: center;
+    vertical-align: top;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: .3px;
+}
+
+.tweetButt:hover{
+    box-shadow: 5px 4px 5px rgba(25, 127, 210, 0.15);
+}
+.tweetButt:active{
+    color: rgb(25, 127, 210);
+    background-color: white;
+    border-color: rgb(25, 127, 210);;
+    border: solid;
+}

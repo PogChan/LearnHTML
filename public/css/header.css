@@ -1,0 +1,208 @@
+.header{
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(240,240,240);
+    z-index: 10;
+}
+
+
+.hamBurgIcon{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.hamBurgIcon:hover{
+    cursor: pointer;
+}
+
+.youtubeLogo{
+    height: 24px;
+}
+.youtubeLogo:hover{
+    cursor: pointer;
+}
+.leftSec{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.middleSec{
+    margin-left: 60px;
+    flex: 1;
+    max-width: 470px;
+    display: flex;
+    align-items: center;
+}
+.searchBar{
+    flex: 1;
+    font-size: 16px;
+    height: 36px;
+    font-family: Roboto, Arial;
+ 
+    width: 0;
+
+    border: 1px solid rgb(192,192,192);
+    border-radius: 2px;
+    padding-left: 10px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+}
+.searchBar[type="text"]:focus{
+    border: 2px solid lightblue;
+    z-index: 100px;
+}
+.searchBar::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;   
+}
+
+
+.searchButt{
+    height: 40px;
+    width: 70px;
+    border-width: 1px;
+    margin-left: -1px;
+    display: flex;
+   
+    align-items: center;
+   
+    background-color: rgb(242, 242, 242);
+    border-radius: 2px;
+    border-style: solid;
+    border-color: rgb(192,192,192);;
+}
+.searchIcon{
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    right: 23px;
+}
+.searchButt .tooltip,
+.voiceButt .tooltip,
+.uploadDiv .tooltip,
+.appsDiv .tooltip, 
+.notificationDiv .tooltip{
+    position: absolute;
+
+    font-family: Roboto, Arial;
+    font-size: 12px;   
+    color: white;
+    background-color: grey;
+    padding: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.searchButt:hover .tooltip, 
+.voiceButt:hover .tooltip,
+.uploadDiv:hover .tooltip,
+.appsDiv:hover .tooltip,
+.notificationDiv:hover .tooltip{
+    opacity: 100;
+   
+}
+
+.searchButt:hover{
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
+
+.searchButt, .voiceButt, .uploadDiv, 
+.appsDiv, .notificationDiv{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.voiceButt{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240,240,240);
+
+    border-style: none;
+}
+
+.voiceIcon{
+    height: 24px;
+    width: 24px;
+}
+.voiceButt:hover{
+    cursor: pointer;
+}
+.rightSec{
+    width:182px;
+    margin-left: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+
+.uploadIcon{
+    height: 28px;
+    width: 28px;
+}  
+.appsIcon{
+    height: 28px;
+    width: 28px;
+}
+
+.notificationDiv{
+    position: relative;
+}
+
+.notificationIcon{
+    height: 28px;
+    width: 28px;
+}
+.notifCount{
+    position: absolute;
+    top: -2px;
+    right: -4px;
+    background-color: rgb(200,0,0);
+    color: white;
+    font-size: 12px;
+    font-family: Roboto, Arial;
+    border-radius: 16px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 6px;
+    padding-left: 6px;
+
+
+}
+
+.profileIcon{
+    height: 28px;
+    width: 28px;
+    border-radius: 16px;
+}
+.profileIcon:hover, .uploadIcon:hover,
+.appsIcon:hover, .notificationIcon:hover{
+    cursor: pointer;
+}
+
+
+

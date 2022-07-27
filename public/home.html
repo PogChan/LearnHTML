@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WallLite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<style>
+  
+</style>
+<body>
+
+  <button class="subscribeButt">SUBSCRIBE</button>
+  <a href="youtube.html"><button class="joinButt" >JOIN</button></a>
+  <button class="tweetButt">Tweet</button>
+
+  <p class="youtubeVidTxt">
+    Talking Tech and AI with Google CEO AllinaChan Pog
+  </p>
+  <p class="videoStats">
+    3.4M views &#183; 6 months ago
+  </p>
+  <p class="appleTxt">
+    Shop early for the best selection of holiday favourites. <a class="shopNow" href="http://www.apple.com" target=”_blank”> Shop now ></a>
+
+  </p>
+
+
+    <form action="http://httpbin.org/post" method="post">
+
+
+        <fieldset>
+            <div class="">
+                <legend>Contact Details</legend>
+
+                <label for="firstName">First Name:</label>
+                <input type="text" name="First Name" id="firstName" placeholder="John...">
+                <label for="lastName">Last Name:</label>
+            <input type="text" name="Last Name" id="lastName" placeholder="Smith...">
+            </div>
+            
+            
+            <label for="user_email">Email Address:</label>
+            <input type="email" id="user_email" name="email" placeholder="you@example.com">
+            <label for="user_password">Password:</label>
+            <input type="password" id="user_password" name="password">
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </fieldset>
+
+        <fieldset>
+          <a href="http://www.youtube.com" target="_blank">GO TO UTUBE</a>
+            <p class=""><label for="short"><abbr title="Are you sure about this?" aria-label="Are you sure about this?">Short Answer</abbr></label></p>
+
+            <textarea maxlength="25" rows ="20" cols = "60" id = "short" name = "shortAnswer" placeholder="Type your short answer here (25 characters max)"></textarea>
+        </fieldset>
+            
+        
+        <section>
+            <h2>Preferred Car</h2>
+            <select name="Car">
+                <option value="mercedes">Mercedes</option>
+                <option value="tesla" selected>Tesla</option>
+                <option value="volvo">Volvo</option>
+                <option value="bmw">BMW</option>
+                <option value="mini">Mini</option>
+                <option value="ford">Ford</option>
+              </select>
+
+            <div class="container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                    <rect x=0 y=0 width=100 height=100 fill="burlywood"/>
+                    <path d="M 10 10 H 90 V 90 L 10 60" fill="transparent" stroke="black" stroke-width="3"/>
+                  <circle cx=50 cy=50 r=20 class="svg-circle"/>
+                    <g class="svg-text-group">
+                      <text x="20" y="25" rotate="10" id="hello-text">Hello!</text>
+                      <use href="#hello-text" x="-10" y="65" fill="white"/>
+                    </g>
+                </svg>
+              </div>
+              
+              <section>
+                <table id="table1">
+                  <tr>
+                    <th>title1</th>
+                    <th>title2</th>
+                    <th>title3</th>
+                  </tr>
+                  <tr>
+                    <td id="nested">
+                      <table id="table2">
+                        <tr>
+                          <td>cell1</td>
+                          <td>cell2</td>
+                          <td>cell3</td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td>cell2</td>
+                    <td>cell3</td>
+                  </tr>
+                  <tr>
+                    <td>cell4</td>
+                    <td>cell5</td>
+                    <td>cell6</td>
+                  </tr>
+                </table>
+              </section>
+
+
+            <h2>Fashion</h2>
+            <select name="fashion">
+                <optgroup label="Clothing">
+                  <option value="t_shirt">T-Shirts</option>
+                  <option value="sweater">Sweaters</option>
+                  <option value="coats">Coats</option>
+                </optgroup>
+                <optgroup label="Foot Wear">
+                  <option value="sneakers">Sneakers</option>
+                  <option value="boots">Boots</option>
+                  <option value="sandals">Sandals</option>
+                </optgroup>
+              </select>
+        </section>
+          
+        <div class="">
+            <h1>Gender</h1>
+            <div>
+              <input type="radio" id="Male" name="Gender" value="Male">
+              <label for="Male">Male</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="Female" name="Gender" value="Female">
+              <label for="Female">Female</label>
+            </div>
+            
+            <div>
+              <input type="radio" id="na" name="Gender" value="na" checked>
+              <label for="na">Prefer not to say</label>
+            </div>
+        </div>
+        <div class="">
+            <h1>Pizza Toppings</h1>
+
+            <div>
+              <input type="checkbox" id="sausage" name="topping" value="sausage">
+              <label for="sausage">Sausage</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="onions" name="topping" value="onions">
+              <label for="onions">Onions</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="pepperoni" name="topping" value="pepperoni" checked>
+              <label for="pepperoni">Pepperoni</label>
+            </div>
+            
+            <div>
+              <input type="checkbox" id="mushrooms" name="topping" value="mushrooms">
+              <label for="mushrooms">Mushrooms</label>
+            </div>
+        </div>
+
+        <p>
+            <legend>NEWSLETTER?</legend>
+
+            <input type="checkbox" id="newsletter" name="news_letter" checked>
+            <label for="newsletter">Send me the news letter</label>
+        </p>
+
+
+          <p>
+            <input type="color" name="color" id="colorCode">
+            <label for="colorCode">COlor Coders</label>
+          </p>
+
+          <div class="">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+            <!-- <button>Click to Toggle</button> -->
+          </div>
+
+          
+        
+    </form>
+
+
+  
+    <!-- <div>
+        <label for="username">username</label>
+        <input type="text" id="username">
+        <button class="greet-btn">GREET MEE</button>
+    </div>
+    <h1 class="greeting"></h1> -->
+</body>
+</html>
